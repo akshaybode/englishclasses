@@ -40,7 +40,7 @@
     .books img { width: 55%; }
     
     .book { width: 45%; height: auto; }
-    .buy { width: 10px; }
+   
     
     
 }
@@ -57,7 +57,7 @@
     h1 { font-size: 15px; }
     .col { padding-bottom: 20px; }
     .books img { width: 55%; }
-    .btn { padding-bottom: 20px; }
+    }
     
 }
         
