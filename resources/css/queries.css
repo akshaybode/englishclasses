@@ -37,6 +37,9 @@
     margin-left: 0%;}
     h1 { font-size: 180%; }
     h2 { font-size: 150%; }
+    .books img { width: 55%; }
+    .btn { padding-bottom: 20px; }
+    .book { width: 45%; height: auto;
     
 }
 
@@ -52,7 +55,7 @@
     h1 { font-size: 15px; }
     .col { padding-bottom: 20px; }
     .books img { width: 55%; }
-    .btn { margin: 10px 10px; }
+    .btn { padding-bottom: 20px; }
     
 }
         
