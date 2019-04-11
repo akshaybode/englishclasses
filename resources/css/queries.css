@@ -47,12 +47,12 @@
     section { padding: 25px 0; }
     .para { transform: translate(-40%,10%); 
     padding-right: 20px; }
-    .book { width: 35%; height: auto;
+    .book { width: 45%; height: auto;
     padding-left: 20px; }
     h1 { font-size: 15px; }
     .col { padding-bottom: 20px; }
     .books img { width: 55%; }
-    .show { padding-top: 15px; }
+    .btn { margin: 10px 10px; }
     
 }
         
