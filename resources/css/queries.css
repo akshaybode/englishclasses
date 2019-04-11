@@ -44,6 +44,7 @@
    
     .buy { height: 2%;
     width: 4%; }
+    .shop { margin-bottom: 10px; }
    
     
 }
@@ -61,6 +62,7 @@
     .books img { width: 55%; }
     .buy { height: 2%;
     width: 4%; }
+    .shop { margin-bottom: 10px; }
    
     }
     
