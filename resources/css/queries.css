@@ -57,8 +57,8 @@
    
     .buy { height: 2%;
     width: 4%; }
-    .shop { margin-bottom: 20px; }
-    }
+    .shop { margin-bottom: 20px; } 
+
 .steps-box:first-child {
 		text-align: center;
 		margin-top: 10px;
@@ -88,7 +88,7 @@
 @media only screen and (max-width:480px)
 {
     section { padding: 25px 0; }
-    padding-right: 20px; }
+    
     .book { width: 45%; height: auto; }
     h1 { font-size: 15px; }
     .col { padding-bottom: 20px; }
