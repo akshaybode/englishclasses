@@ -7,6 +7,7 @@
         <link rel="stylesheet" type="text/css" href="resources/css/style.css">
         <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
         <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="vendors/css/animate.css">
         <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
         <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
        
@@ -19,15 +20,15 @@
             <nav>
                 <ul class="main-nav">
                 <li><a href="#">Register</a></li>
-                <li><a href="#">View our features</a></li>
-                <li><a href="#">Location</a></li>
+                <li><a href="#features">View our features</a></li>
+                <li><a href="#student">Our Students</a></li>
                 </ul>            
             </nav>
             <div class='hero-text-box'>
                 <img src="resources/img/bookmain.jpg" class="book" alt="Book Image">
         <h1>Get a book! Over 15,000+ copies sold.</h1>
             <a href="https://www.amazon.in/English-Speaking-Personality-Development-Jagdish/dp/B07N5C9N3G/ref=sr_1_3?qid=1554466968&refinements=p_27%3AJagdish+R+Wandile&s=books&sr=1-3" class="btn shop">Shop Now</a>
-            <a href="#" class="btn show">Show me more</a>
+            <a href="#" class="btn show scroll-to-more">Show me more</a>
                 </div>
         </header>
         
@@ -39,7 +40,7 @@
                 <p class="long-copy">In Our classroom course, We teach English & Personality development.
 And we focused more on practice rather than theory.
                 </p></div>
-            <div class="row">
+            <div class="row js--wp-1">
             <div class="col span-1-of-4 box">
                  
                  <i class="ion-ios-contact-outline icon-big"></i>
@@ -103,25 +104,25 @@ And we focused more on practice rather than theory.
             </ul>
         </section>
         
-        <section class="section-books">
+        <section class="section-books js--wp-2">
             <h2 class="getbooks">Get our other books</h2>
         <div class="row">
             
-            <div class="col span-1-of-3 books">
+            <div class="col span-1-of-3 books js--wp-2">
                 <img src="resources/img/book1.jpg" class="bookimg"><br>
                 <a href="#" class="buy"> <img src="resources/img/buy3.gif" ></a>
             
             </div>
             
-             <div class="col span-1-of-3 books">
+             <div class="col span-1-of-3 books js--wp-2">
                 <img src="resources/img/book2.jpg" class="bookimg"><br>
                  <a href="#" class="buy"> <img src="resources/img/buy3.gif" ></a>
             </div>
             
             <div class="col span-1-of-3 type">
                 <h1>One of the<br>
-                    <span class="typer" id="main" data-words="Best,Knowledgeable,Most Helpful" data-delay="100" data-deleteDelay="1000"></span>
-                    <span class="cursor" data-owner="main"></span><br>Book</h1>
+                    <span class="typer" id="main" data-words="Knowledgeable,Most Helpful" data-delay="100" data-deleteDelay="1000"></span>
+                    <span class="cursor" data-owner="main"></span><br>Books.</h1>
                 
             
             </div>
@@ -129,51 +130,9 @@ And we focused more on practice rather than theory.
             </div>
         </section>
         
-    <!--Cities section  ------->
-        <section class="section-city">
-        <div class="row">
-            <div class="col span-1-of-2 box ">
-            <img src="resources/img/maps.png" class="bookimg">
-                <h3>Bidkar Ward, Hinganghat,<br> Maharashtra</h3>
-                <div class="city-features">
-                <i class="ion-ios-star icon-small"></i>
-                17+ years Teaching Experience
-                    </div>
-                
-                <div class="city-features">
-                <i class="icon ion-laptop icon-small"></i>
-                Support to every student
-                    </div>
-            
-            
-            <div class="city-features">
-                <i class="ion-social-facebook icon-small"></i>
-                <a href="https://www.facebook.com/jagdishwandile123">Connect with Facebook</a>
-                    </div>
-            </div>
-            <div class="col span-1-of-2 steps-box">
-				<div class="works-steps">
-					<div>1</div>
-					<p>We focus more on practical than theory.</p>
-				</div>
-				<div class="works-steps">
-					<div>2</div>
-					<p>You can join 10 days of demo class and decide yourself.</p>
-				</div>
-                <div class="works-steps">
-					<div>3</div>
-					<p>17+ Years of teaching Experience.</p>
-				</div>
-				<div class="works-steps">
-					<div>4</div>
-					<p>English progress is 100% guaranteed, And lifetime membership.</p>
-				</div>
-			</div>
-        </div>
-    </section>
-        
+    
         <!--------------Student testimonial section-------------------------->
-        <section class="students">
+        <section class="students" id="student">
         <div class="row">
             <h2>Our Students</h2></div>
             <div class="row">
@@ -193,20 +152,64 @@ And we focused more on practice rather than theory.
                 </div>
             </div>
         </section><hr color="#888">
+        
+        <!--Cities section  ------->
+        <section class="section-city" id="features">
+        <div class="row">
+            <div class="col span-1-of-2 box ">
+            <img src="resources/img/maps.png" class="bookimg js--wp-3">
+                <h3>Bidkar Ward, Hinganghat,<br> Maharashtra</h3>
+                <div class="city-features">
+                <i class="ion-ios-star icon-small"></i>
+                17+ years Teaching Experience
+                    </div>
+                
+                <div class="city-features">
+                <i class="icon ion-laptop icon-small"></i>
+                Support to every student
+                    </div>
+            
+            
+            <div class="city-features">
+                <i class="ion-social-facebook icon-small"></i>
+                <a href="https://www.facebook.com/jagdishwandile123" class="fb">Connect with Facebook</a>
+                    </div>
+            </div>
+            <div class="col span-1-of-2 steps-box">
+                <h2>Our features</h2>				
+				<div class="works-steps">
+					<div>1</div>
+					<p>You can join 10 days of demo class and decide by yourself.</p>
+				</div>
+                <div class="works-steps">
+					<div>2</div>
+					<p>English progress is 100% guaranteed, And lifetime membership.</p>
+				</div>
+                <div class="works-steps">
+					<div>3</div>
+					<p>17+ Years of teaching Experience,We focus more on practical rather than theory.</p>
+				</div>
+               
+				
+			</div>
+        </div>
+    </section>
+        
+        
 <!---------------------------Footer Section---------------------------------------->
         <footer class="section-footer">
         <div class="row">
             <div class="col span-1-of-2">
                 <ul class="footer-nav">
-                    <li><a href="#">About us</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Other website</a></li>
+                    <li><a href="https://sites.google.com/view/jagdishwandilesir/home">About us</a></li>
+                    <li><a href="https://jagdishwandilesir.blogspot.com/">Blog</a></li>
+                    <li><a href="https://sites.google.com/view/jagdishwandilesir/home">Other website</a></li>
                 
                 </ul>
             </div>
             <div class="col span-1-of-2">
                 <ul class="social-icons">
-                    <li><a href="#"><i class="ion-social-facebook"></i></a></li>
+                    <li><a href="https://www.facebook.com/jagdishwandile123"><i class="ion-social-facebook"></i></a></li>
 					<li><a href="#"><i class="ion-social-twitter"></i></a></li>
 					<li><a href="#"><i class="ion-social-instagram"></i></a></li>
 					<li><a href="#"><i class="ion-social-googleplus"></i></a></li>

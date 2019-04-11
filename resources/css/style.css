@@ -364,7 +364,7 @@ footer-nav {
 	list-style: none;
 	float: left;
 }
-
+/*--------------------Icons--------------------*/
 .social-icons {
 	list-style: none;
 	float: right;
@@ -430,6 +430,19 @@ footer p {
 .social-icons li a:active {
 
 }
+
+.fb {
+    text-decoration: none;
+    color: #e67e22;
+    font-weight: 350;
+    transition: color 0.2s;
+}
+.fb:hover,
+.fb:active {
+    
+    color: #555;
+   
+}
 .count {
     color: #fff;
     font-size: 120%;
@@ -437,6 +450,15 @@ footer p {
 }
 
 
+/---*Animations------*/
+.js--wp-1,
+.js--wp-3 {
+    opacity: 0;
+}
+.js--wp-1.animated,
+.js--wp-3.animated {
+    opacity: 1;
+}
 
 
 
