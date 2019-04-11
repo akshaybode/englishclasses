@@ -44,8 +44,8 @@
    
     .buy { height: 2%;
     width: 4%; }
-    .shop { margin-bottom: 20px; }
-    .para { transform: translate(-20%,10%); }
+    .shop { margin-bottom: 30px; }
+    .para { transform: translate(20%,10%); }
    
     
 }
@@ -63,8 +63,8 @@
     .books img { width: 55%; }
     .buy { height: 2%;
     width: 4%; }
-    .shop { margin-bottom: 20px; }
-    .para { transform: translate(-20%,10%);  }
+    .shop { margin-bottom: 30px; }
+    .para { transform: translate(20%,10%);  }
    
     }
     
