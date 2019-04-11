@@ -282,21 +282,21 @@ h3 {
 
 .steps-box:first-child {
 	text-align: right; /* Works for inline-block elements */
-	padding-right: 3%; /* layout will be fluid */
+	padding-right: 5%; /* layout will be fluid */
 	margin-top: 30px;
 }
 
 .steps-box:last-child {
-	padding-left: 3%;
-	margin-top: 70px;
+	padding-left: 5%;
+	margin-top: 60px;
 }
 
-.app-screen { width: 40%; }
 
-.works-steps { margin-bottom: 50px; }
+.works-steps { margin-bottom: 60px;
+}
 
 .works-steps:last-of-type{ /* Gives step 3 more margin bottom unlike sibling elements with 50px */
-	margin-bottom: 80px;
+	margin-bottom: 70px;
 }
 
 .works-steps div {
