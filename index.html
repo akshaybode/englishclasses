@@ -1,25 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
     <head> 
-        <link href="https://unpkg.com/ionicons@4.5.5/dist/css/ionicons.min.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--<link href="https://unpkg.com/ionicons@4.5.5/dist/css/ionicons.min.css" rel="stylesheet">-->
         
         <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+        <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
         <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
         <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
         <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
+       
      
 
          <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,300italic' rel="stylesheet" type="text/css">
     </head>
     <body>
         <header>
-            <nav class="main-nav row">
-                <ul>
+            <nav>
+                <ul class="main-nav">
                 <li><a href="#">Register</a></li>
                 <li><a href="#">View our features</a></li>
                 <li><a href="#">Location</a></li>
                 </ul>            
-            
             </nav>
             <div class='hero-text-box'>
                 <img src="resources/img/bookmain.jpg" class="book" alt="Book Image">
@@ -29,7 +31,7 @@
                 </div>
         </header>
         
-        <section class="main-section">
+        <section class="main-section js--section-features">
             <div class="main-head row">
                
 
@@ -70,7 +72,7 @@ And we focused more on practice rather than theory.
         
         <section class="section-img">
         
-            <ul class="inside-img">
+            <ul class="inside-img clearfix">
             <li><figure class="class-photo">
                 <img src="resources/img/2.jpeg"  alt="define something"> 
                 </figure>
@@ -85,7 +87,7 @@ And we focused more on practice rather than theory.
                 </li>
             </ul>
             
-           <ul class="inside-img">
+           <ul class="inside-img clearfix">
             <li><figure class="class-photo">
                 <img src="resources/img/3.jpeg"  alt="define something"> 
                 </figure>
@@ -99,8 +101,157 @@ And we focused more on practice rather than theory.
                 </figure>
                 </li>
             </ul>
-            
         </section>
+        
+        <section class="section-books">
+            <h2 class="getbooks">Get our other books</h2>
+        <div class="row">
+            
+            <div class="col span-1-of-3 books">
+                <img src="resources/img/book1.jpg" class="bookimg"><br>
+                <a href="#" class="buy"> <img src="resources/img/buy3.gif" ></a>
+            
+            </div>
+            
+             <div class="col span-1-of-3 books">
+                <img src="resources/img/book2.jpg" class="bookimg"><br>
+                 <a href="#" class="buy"> <img src="resources/img/buy3.gif" ></a>
+            </div>
+            
+            <div class="col span-1-of-3 type">
+                <h1>One of the<br>
+                    <span class="typer" id="main" data-words="Best,Knowledgeable,Most Helpful" data-delay="100" data-deleteDelay="1000"></span>
+                    <span class="cursor" data-owner="main"></span><br>Book</h1>
+                
+            
+            </div>
+            
+            </div>
+        </section>
+        
+    <!--Cities section  ------->
+        <section class="section-city">
+        <div class="row">
+            <div class="col span-1-of-2 box ">
+            <img src="resources/img/maps.jpg" class="bookimg">
+                <h3>Bidkar Ward, Hinganghat,<br> Maharashtra</h3>
+                <div class="city-features">
+                <i class="ion-ios-person icon-small"></i>
+                1000+ Students
+                    </div>
+                
+                <div class="city-features">
+                <i class="icon ion-laptop icon-small"></i>
+                Support to every student
+                    </div>
+            
+            
+            <div class="city-features">
+                <i class="ion-social-facebook icon-small"></i>
+                <a href="#">Connect with Facebook</a>
+                    </div>
+            </div>
+            <div class="col span-1-of-2">
+                <h2>How It works &mdash; Simple</h2>
+                <div class="steps">
+                <div>1</div>
+                    <p class="para">Something need to write here</p>
+                </div>
+                <div class="steps">
+                <div>2</div>
+                    <p class="para">Something need to write here</p>
+                </div>
+                <div class="steps">
+                <div>3</div>
+                    <p class="para">Something need to write here</p>
+                </div>
+                <div class="steps">
+                <div>4</div>
+                    <p class="para">Something need to write here</p>
+                </div>
+            
+            </div>
+        </div>
+    </section>
+        
+        <!--------------Student testimonial section-------------------------->
+        <section class="students">
+        <div class="row">
+            <h2>Our Students &mdash; Testimonial</h2></div>
+            <div class="row">
+                <div class="col span-1-of-3">
+                <blockquote>This class is beyond english speaking and personality development. Full of real life lessons; no theory. It teaches how to be a better version of yourself in all areas of your life. Joined many classes and this one over-delivered.</blockquote>
+                    <cite><img src="resources/img/abhishek.jpg">Abhishek Shende</cite>
+                </div>
+                
+                <div class="col span-1-of-3">
+                <blockquote>This class is best on way of teaching.....need to entend it!This class is best on way of teaching.....need to entend it! Great work by sir...best teaching faculty.</blockquote>
+                    <cite><img src="resources/img/student1.jpg">Person name</cite>
+                </div>
+                
+                <div class="col span-1-of-3">
+                <blockquote>This class is best on way of teaching.....need to entend it!This class is best on way of teaching.....need to entend it! Great work by sir...best teaching faculty.</blockquote>
+                    <cite><img src="resources/img/student1.jpg">Person name</cite>
+                </div>
+            </div>
+        </section><hr color="#888">
+<!---------------------------Footer Section---------------------------------------->
+        <footer class="section-footer">
+        <div class="row">
+            <div class="col span-1-of-2">
+                <ul class="footer-nav">
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Other website</a></li>
+                
+                </ul>
+            </div>
+            <div class="col span-1-of-2">
+                <ul class="social-icons">
+                    <li><a href="#"><i class="ion-social-facebook"></i></a></li>
+					<li><a href="#"><i class="ion-social-twitter"></i></a></li>
+					<li><a href="#"><i class="ion-social-instagram"></i></a></li>
+					<li><a href="#"><i class="ion-social-googleplus"></i></a></li>
+                
+                </ul>
+                
+            
+            
+            </div>
+            
+        </div>
+             <!-----------counter------------------->
+            <p class="count">User Visited:</p>
+           <div align=center><a href='https://www.counter12.com'><img src='https://www.counter12.com/img-C2Z02a1Ac5609BD2-6.gif' border='0' alt='contador grátis'></a><script type='text/javascript' src='https://www.counter12.com/ad.js?id=C2Z02a1Ac5609BD2'></script></div>
+        <div class="row">
+            <p>Copyright &copy; 2019 by Akshay Bode. All rights reserved.</p>
+            </div>
+       
+        </footer>
+        
+    <script src="//cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
+	<script src="//cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
+	<script src="//cdn.jsdelivr.net/selectivizr/1.0.3b/selectivizr.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="vendors/js/jquery.waypoints.min.js"></script>
+	<script src="resources/js/scripts.js"></script> <!-- Sticky nav -->
+	<script src="http://maps.google.com/maps/api/js?sensor=true"></script>
+	<script src="vendors/js/gmaps.js"></script>
+    <script src="vendors/js/typer.js"></script>
+        
+        <!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/5caee1fdc1fe2560f3fe449c/default';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
         
     
     
