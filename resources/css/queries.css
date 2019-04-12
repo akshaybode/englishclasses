@@ -1,3 +1,18 @@
+@media only screen and (max-width:1400px)
+{
+    .hero-text-box {
+        width: 100%;
+        padding: 0 4%;
+
+    }
+    .row { padding: 0 2%; }
+    .mobile-container { display: none; }
+    
+}
+
+
+
+
 
 /*----Big tablets to 1200 px( width that smaller to 1140 row) ----*/
 @media only screen and (max-width:1200px)
@@ -8,6 +23,7 @@
 
     }
     .row { padding: 0 2%; }
+    .mobile-container { display: none; }
     
 }
 
@@ -33,6 +49,7 @@
 	.works-steps:last-of-type {
 		margin-bottom: 80px;
 	}
+    .mobile-container { display: none; }
 
 
 }
@@ -79,7 +96,8 @@
 	.works-steps:last-of-type {
 		margin-bottom: 30px;
 	}
-   
+   .mobile-container { display:block; }
+    
     
 }
 
@@ -97,6 +115,7 @@
     width: 4%; }
     .shop { margin-bottom: 20px; }
     
+
    
     }
     
