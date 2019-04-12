@@ -55,5 +55,20 @@ $(document).ready(function(){
     
     
     
+    /*dialog box
+    $('.dialog').dialog({
+                modal: true,
+                autoOpen: false,
+                title: "Join Us",
+                width: 300,
+                height: 150
+            });
+            $('.btnShow').click(function () {
+                $('.dialog').dialog('open');
+            });
+            */
+    
+    
+    
 });
 
