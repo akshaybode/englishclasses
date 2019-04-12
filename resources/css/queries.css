@@ -6,7 +6,7 @@
 
     }
     .row { padding: 0 2%; }
-    .mobile-container { display: none; }
+   
     
 }
 
@@ -23,7 +23,7 @@
 
     }
     .row { padding: 0 2%; }
-    .mobile-container { display: none; }
+   
     
 }
 
@@ -49,8 +49,7 @@
 	.works-steps:last-of-type {
 		margin-bottom: 80px;
 	}
-    .mobile-container { display: none; }
-
+   
 
 }
 
@@ -96,7 +95,8 @@
 	.works-steps:last-of-type {
 		margin-bottom: 30px;
 	}
-   .mobile-container { display:block; }
+   
+    .topnav {padding-bottom: 50px; }
     
     
 }
