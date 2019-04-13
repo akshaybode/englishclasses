@@ -67,6 +67,9 @@ $(document).ready(function(){
                 $('.dialog').dialog('open');
             });
             */
+    $(".kite-menu").kiteMenu();
+    
+    
     
     
     
