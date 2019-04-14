@@ -66,8 +66,10 @@ $(document).ready(function(){
             $('.btnShow').click(function () {
                 $('.dialog').dialog('open');
             });
-            */
+            
     $(".kite-menu").kiteMenu();
+    
+    */
     
     
     
