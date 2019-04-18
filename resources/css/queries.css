@@ -96,7 +96,7 @@
     
     .long-copy { width: 100%;
     margin-left: 0%;}
-    h1 { font-size: 180%; }
+    h1 { font-size: 155%; }
     h2 { font-size: 150%; }
     .books img { width: 55%; }
     
@@ -127,7 +127,7 @@
 	.works-steps:last-of-type {
 		margin-bottom: 30px;
 	}
-    .hero-text-box { padding-top: 100px; }
+    .hero-text-box { padding-top: 120px; }
     
     
     
@@ -146,7 +146,7 @@
     .buy { height: 2%;
     width: 4%; }
     .shop { margin-bottom: 20px; }
-    .hero-text-box { padding-top: 100px; }
+    .hero-text-box { padding-top: 120px; }
     
     
     .main-nav { display: none; }
